@@ -43,13 +43,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "premium":
         await query.message.edit_text(
-            text=f"Premium Benefits & Perks\nDirect Channel Links, No Ad Links\nSpecial Access In Events\n\n<blockquote>Pricing Rates\n1 Month - INR 100\n3 Months - INR 250\n6 Months - INR 450\n12 Month - 800 Contact <a href=https://t.me/Blade_Zoro>Owner</a></blockquote>\n\n<blockquote>Want To Buy?\n<a href=https://t.me/Blade_Zoro>Owner</a></blockquote>\n\nWe Have Limited Seats For Premium Users",
+            text=f"Premium Benefits & Perks\nDirect Channel Links, No Ad Links\nSpecial Access In Events\n\n<blockquote>Pricing Rates\n1 Month - INR 249\n2 Months - INR 349\n3 Months - INR 449\n06 Months - INR 699\n12 Months - INR 1199\nLifeline Plan - Contact <a href=https://t.me/Blade_Zoro>Owner</a></blockquote>\n\n<blockquote>Want To Buy?\n<a href=https://t.me/Blade_Zoro>Owner</a></blockquote>\n\nWe Have Limited Seats For Premium Users",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("𝗕𝘂𝘆 𝗡𝗼𝘄", url="https://t.me/Blade_Zoro"),
-                        InlineKeyboardButton("All Channels", url="https://t.me/Lush_Garden")
+                        InlineKeyboardButton("All Channels", url="https://t.me/addlist/gW1tbalPYMRjZjg1")
                     ],
                     [
                         InlineKeyboardButton("🔒 Close", callback_data="close")
