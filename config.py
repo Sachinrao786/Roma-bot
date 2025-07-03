@@ -66,7 +66,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 
 #Short Url or Api
 SHORT_URL = os.environ.get("SHORTNER_URL", "reel2earn.com")
-SHORT_API = os.environ.get("SHORTNER_API", "18eee1ec2aa13b320b665d2e83a2cb222bd9719a")
+SHORT_API = os.environ.get("SHORTNER_API", "5adbd0fc1120c8fcdd3c9474f289dc1845bf9971")
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ - @Lush_Garden"
